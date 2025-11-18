@@ -31,7 +31,7 @@ $$H = -J \sum_{\langle i, j \rangle} s_i s_j$$
 - $\sum_{\langle i, j \rangle}$: Sum over nearest neighbors
 
 ### The Algorithm (Metropolis Method)
-I implemented the **Metropolis-Hastings algorithm** to simulate thermal fluctuations:
+The simulation uses the **Metropolis-Hastings algorithm** to model thermal fluctuations:
 1. Pick a random spin.
 2. Calculate energy change $\Delta E$.
 3. Flip the spin if $\Delta E < 0$, or with probability $e^{-\Delta E / k_B T}$ if $\Delta E > 0$.
@@ -43,12 +43,13 @@ I implemented the **Metropolis-Hastings algorithm** to simulate thermal fluctuat
 - **Libraries:** NumPy, Matplotlib
 - **Environment:** Jupyter Notebook on WSL2 (Ubuntu)
 
-## 🚀 Future Work
-- **Critical Exponents:** Calculating susceptibility ($\chi$) and heat capacity ($C_v$) to study universality classes.
-- **Neuroscience Connection:** I am interested in learningng this energy-based model to **Hopfield Networks** and Boltzmann Machines to simulate the memory.
+## 🚀 Future Learning Goals
+I am currently studying statistical mechanics and programming to deepen my understanding of the following topics:
+- **Critical Exponents:** Understanding universality classes through susceptibility ($\chi$) and heat capacity ($C_v$) calculations.
+- **Neuroscience Connection:** Exploring the link between energy-based models and neural networks (e.g., **Hopfield Networks**).
 
-## Acknowledgements
-This project was implemented with the assistance of AI tools (Google Gemini) for code generation, debugging, and theoretical explanations. The simulation logic and physical interpretations were verified by the author.
+## 🤝 Acknowledgements
+This project was implemented with the assistance of AI tools (Google Gemini) for code generation, debugging, and theoretical explanations. The simulation logic and physical interpretations were verified by the author as part of the learning process.
 
 ---
 *Author: Ko Akamine (Kumamoto University, Physics)*
