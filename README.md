@@ -45,7 +45,10 @@ I implemented the **Metropolis-Hastings algorithm** to simulate thermal fluctuat
 
 ## 🚀 Future Work
 - **Critical Exponents:** Calculating susceptibility ($\chi$) and heat capacity ($C_v$) to study universality classes.
-- **Neuroscience Connection:** Extending this energy-based model to **Hopfield Networks** and Boltzmann Machines to simulate associative memory.
+- **Neuroscience Connection:** I am interested in learningng this energy-based model to **Hopfield Networks** and Boltzmann Machines to simulate the memory.
+
+## Acknowledgements
+This project was implemented with the assistance of AI tools (Google Gemini) for code generation, debugging, and theoretical explanations. The simulation logic and physical interpretations were verified by the author.
 
 ---
 *Author: Ko Akamine (Kumamoto University, Physics)*
